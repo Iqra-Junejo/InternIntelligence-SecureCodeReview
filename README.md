@@ -1,58 +1,51 @@
-# 🔍 InternIntelligence-SecureCodeReview
+# 🔐 Secure Code Review – Intern Intelligence Internship (Task 5)
 
-### 📁 Virtual Internship Task – Cyber Security  
-**Task 5: Secure Code Review**  
-Completed as part of my internship at **Intern Intelligence** 🎉  
-
----
-
-## 🚀 Overview
-
-This repository contains the secure code review project completed for Task 5 during the **Intern Intelligence Cyber Security Virtual Internship**.
-
-The objective was to analyze a Python script for security vulnerabilities and provide improvement recommendations.
-
-🗓️ **Completed on:** July 27, 2025, at 09:28 PM PKT
+## 🎯 Overview
+This repository contains a **secure code review project** completed as part of the **Intern Intelligence Virtual Internship – Cyber Security Track (Task 5)**.  
+The goal was to review a sample Python codebase for security vulnerabilities and suggest improvements.  
+🗓️ **Completed on:** July 27, 2025 at 09:39 PM PKT
 
 ---
 
 ## 📝 Codebase Reviewed
 
-**File Reviewed:** `sample_app.py`  
-**Description:** A basic Python script that accepts user input and checks for an "admin" role using a hardcoded password.
+- **File:** `sample_app.py`  
+- **Description:** A simple Python script that accepts user input and checks for an `"admin"` role. The updated version replaces hardcoded credentials with a secure authentication mechanism using hashing.
 
 ---
 
 ## ⚠️ Security Vulnerabilities Identified
 
-1. **Improper Input Validation**  
-   - Uses `input()` without any sanitization.  
-   - Risks of **code injection** or **unexpected behavior**.
+1. **Improper Input Validation:**  
+   The original script used `input()` without sanitizing, leading to potential injection risks.  
+   ✔️ **Fix:** `.strip()` added; further validation recommended.
 
-2. **Insecure Data Handling**  
-   - Password `"1234"` is hardcoded and printed directly.  
-   - Exposes sensitive data.
+2. **Insecure Data Handling:**  
+   Hardcoded password `"1234"` was printed, exposing credentials.  
+   ✔️ **Fix:** Replaced with `sha256` hashing and removed print statements.
 
-3. **Poor Authentication Mechanism**  
-   - Lacks secure password hashing.  
-   - No session or token management.
+3. **Poor Authentication:**  
+   Original login lacked hashing or session security.  
+   ✔️ **Fix:** Added hashing for secure credential handling. Session management is still a recommended next step.
 
 ---
 
 ## 🌟 Recommendations
 
-- ✅ Sanitize all user inputs using validation libraries (e.g., `re`, `pydantic`).
-- 🔐 Use secure password hashing methods (e.g., `bcrypt`, `passlib`).
-- 🌐 Implement secure authentication and session management using frameworks like **Flask**, **FastAPI**, or **Django**.
+- ✅ Use regex or input validation libraries for robust user input handling.
+- 🔐 Replace `sha256` with a more secure hashing algorithm like **bcrypt** for production use.
+- 🌐 Implement **session management** using frameworks like **Flask** or **Django**.
+- 📁 Store hashed passwords and salt persistently in a database or file, rather than hardcoding.
 
 ---
 
 ## 🛠️ Tools Used
 
-- Manual code inspection (beginner-friendly approach)
-- Optional extensions:
-  - [SonarQube](https://www.sonarsource.com/products/sonarqube/)
-  - GitHub Code Scanning
+- Manual code review (beginner-friendly approach)
+- Python’s `hashlib.sha256` for hashing (simulation)
+- Suggestions to extend with:
+  - ✅ `SonarQube`
+  - ✅ GitHub Advanced Security Code Scanning
 
 ---
 
@@ -62,11 +55,14 @@ The objective was to analyze a Python script for security vulnerabilities and pr
 - 🆔 Unique Submission ID: `p4vbalKvQc7qRpngB9F4`
 - 📅 Date: **July 27, 2025**
 - 🔗 Repository: [GitHub Repo](https://github.com/Iqra-Junejo/InternIntelligence-SecureCodeReview)
+- **Date of Completion:** July 27, 2025
 
 ---
 
 ## 📧 Contact
 
-- 🏢 **Organization:** Intern Intelligence  
-- 📩 **Email:** hr.interintelligence@gmail.com  
-- 🌐 **Website:** [internintelligence.org](https://internintelligence.org)
+- **Organization:** Intern Intelligence  
+- **Email:** hr.interintelligence@gmail.com  
+- **Website:** (http://internintelligence.org)
+
+---
