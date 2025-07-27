@@ -1,31 +1,72 @@
-# InternIntelligence-SecureCodeReview
-Virtual Internship Task of Cyber Security
-Secure Code Review for Intern Intelligence Internship 🎉
-Overview 🚀
-This repository contains a secure code review project completed as part of the Intern Intelligence internship (Task 5). The goal is to review a sample codebase for security vulnerabilities and provide recommendations for improvement. 💻🔒
-Codebase Reviewed 📝
+# 🔍 InternIntelligence-SecureCodeReview
 
-File: sample_app.py
-Description: A simple Python script that takes user input and checks for an "admin" role with a hardcoded password. 🐍
+### 📁 Virtual Internship Task – Cyber Security  
+**Task 5: Secure Code Review**  
+Completed as part of my internship at **Intern Intelligence** 🎉  
 
-Security Vulnerabilities Identified ⚠️
+---
 
-Improper Input Validation: The script uses input() without sanitizing, risking injection attacks. 💉
-Insecure Data Handling: The password "1234" is hardcoded and printed, exposing it. 🔓
-Poor Authentication: Basic username check lacks secure password hashing or session management. 🔐
+## 🚀 Overview
 
-Recommendations 🌟
+This repository contains the secure code review project completed for Task 5 during the **Intern Intelligence Cyber Security Virtual Internship**.
 
-Validate and sanitize user input using a library like re or a validation framework. ✅
-Use a secure hashing library (e.g., bcrypt) to store and verify passwords. 🔐
-Implement proper authentication with session management (e.g., using Flask or Django). 🌐
+The objective was to analyze a Python script for security vulnerabilities and provide improvement recommendations.
 
-Tools Used 🛠️
+🗓️ **Completed on:** July 27, 2025, at 09:28 PM PKT
 
-Manual review (beginner-friendly approach).
-Can be extended with SonarQube or GitHub’s code scanning for automation. 🤖
+---
 
+## 📝 Codebase Reviewed
 
+**File Reviewed:** `sample_app.py`  
+**Description:** A basic Python script that accepts user input and checks for an "admin" role using a hardcoded password.
 
+---
 
+## ⚠️ Security Vulnerabilities Identified
 
+1. **Improper Input Validation**  
+   - Uses `input()` without any sanitization.  
+   - Risks of **code injection** or **unexpected behavior**.
+
+2. **Insecure Data Handling**  
+   - Password `"1234"` is hardcoded and printed directly.  
+   - Exposes sensitive data.
+
+3. **Poor Authentication Mechanism**  
+   - Lacks secure password hashing.  
+   - No session or token management.
+
+---
+
+## 🌟 Recommendations
+
+- ✅ Sanitize all user inputs using validation libraries (e.g., `re`, `pydantic`).
+- 🔐 Use secure password hashing methods (e.g., `bcrypt`, `passlib`).
+- 🌐 Implement secure authentication and session management using frameworks like **Flask**, **FastAPI**, or **Django**.
+
+---
+
+## 🛠️ Tools Used
+
+- Manual code inspection (beginner-friendly approach)
+- Optional extensions:
+  - [SonarQube](https://www.sonarsource.com/products/sonarqube/)
+  - GitHub Code Scanning
+
+---
+
+## 📬 Submission Details
+
+- 🔖 Internship Task: **Intern Intelligence – Task 5**
+- 🆔 Unique Submission ID: `p4vbalKvQc7qRpngB9F4`
+- 📅 Date: **July 27, 2025**
+- 🔗 Repository: [GitHub Repo](https://github.com/Iqra-Junejo/InternIntelligence-SecureCodeReview)
+
+---
+
+## 📧 Contact
+
+- 🏢 **Organization:** Intern Intelligence  
+- 📩 **Email:** hr.interintelligence@gmail.com  
+- 🌐 **Website:** [internintelligence.org](https://internintelligence.org)
