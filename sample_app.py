@@ -2,9 +2,7 @@ import getpass
 import hashlib
 import os
 
-# Securely store the hashed version with a precomputed salt (simulated storage)
 def get_stored_password_hash():
-    # Precomputed salt and hash for "1234" (for simulation purposes)
     salt = b'\x12\x34\x56\x78\x9a\xbc\xde\xf0\x12\x34\x56\x78\x9a\xbc\xde\xf0'
     stored_hash = "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3c8c8f68573e6b5d7b2d8e8d1"
     return stored_hash, salt
