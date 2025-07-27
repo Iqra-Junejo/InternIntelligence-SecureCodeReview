@@ -54,7 +54,7 @@ The goal was to review a sample Python codebase for security vulnerabilities and
 - 🔖 Internship Task: **Intern Intelligence – Task 5**
 - 🆔 Unique Submission ID: `p4vbalKvQc7qRpngB9F4`
 - 📅 Date: **July 27, 2025**
-- 🔗 Repository: [GitHub Repo](https://github.com/Iqra-Junejo/InternIntelligence-SecureCodeReview)
+- 🔗 Repository: https://github.com/Iqra-Junejo/InternIntelligence-SecureCodeReview
 - **Date of Completion:** July 27, 2025
 
 ---
