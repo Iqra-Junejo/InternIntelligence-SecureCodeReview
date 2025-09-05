@@ -1,4 +1,4 @@
-# 🔐 Secure Code Review – Intern Intelligence Internship (Task 5)
+# 🔐 Secure Code Review 
 
 ## 🎯 Overview
 This repository contains a **secure code review project** completed as part of the **Intern Intelligence Virtual Internship – Cyber Security Track (Task 5)**.  
